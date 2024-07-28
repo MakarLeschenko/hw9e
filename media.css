@@ -1,0 +1,37 @@
+@media all and (max-width:1000px){
+    .block{
+        margin: 0;
+    }
+    .h{
+        background-color: aqua;
+    } 
+    .bottom{
+        background-color: aqua;
+    }
+    .picture{
+        float: none;
+        width: 100%;
+    }
+}
+@media all and (max-width:800px){
+    .header{
+        flex-direction: column-reverse;
+    }
+    .img{
+        background-color: white;
+    }
+    li{
+       list-style-type: none;
+       display: list-item;
+       padding: 3px;
+    }
+    .container{
+        width: 100%;
+    }
+    ul{
+        display: flex;
+        flex-wrap: wrap;
+        padding-left: 0px;
+    }
+}
+
